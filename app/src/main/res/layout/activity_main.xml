@@ -21,4 +21,12 @@
         android:layout_margin="10dp"
         android:elevation="5dp"
         android:background="@drawable/bg_round"/>
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MaterialSearchBarLight"
+        app:mt_speechMode="true"
+        app:mt_hint="Custom hint"/>
+
 </RelativeLayout>
